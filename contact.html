@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Play11 for jersey inquiries and brand partnerships.">
+  <title>Play11 | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Play11 home">
+        <span class="brand-badge">P11</span>
+        Play11
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav id="primary-nav" class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <h1>Contact Play11</h1>
+        <p>Let us know how we can support your team, league, or next custom jersey drop.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="form-card reveal">
+          <h2>Send a Message</h2>
+          <p class="muted">We respond within 48 hours. This is a front-end-only form.</p>
+          <form id="contact-form" novalidate>
+            <div class="form-error muted" aria-live="polite" style="display:none;"></div>
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name" placeholder="Your name" required>
+
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="you@email.com" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us about your team or jersey needs" required></textarea>
+
+            <button class="btn primary" type="submit">Send Message</button>
+            <div class="form-success" aria-live="polite">Thanks! Your message has been received.</div>
+          </form>
+        </div>
+
+        <div class="map-card reveal">
+          <h2>Headquarters</h2>
+          <p class="muted">Play11 Performance Studio<br>Los Angeles, CA</p>
+          <img src="assets/images/map-placeholder.svg" alt="Map placeholder">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2026 Play11. Let's build your next kit.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="chatbot">
+    <button class="chatbot-toggle" aria-expanded="false" aria-label="Open Play11 AI chat">AI</button>
+    <div class="chatbot-panel" role="dialog" aria-label="Play11 AI Chat">
+      <div class="chatbot-header">
+        <div>
+          <h3>Play11 AI</h3>
+          <p class="muted">Front-end assistant</p>
+        </div>
+        <button class="chatbot-close" aria-label="Close chat">×</button>
+      </div>
+      <div class="chatbot-messages" id="chatbot-messages" aria-live="polite"></div>
+      <div class="chatbot-quick">
+        <button type="button" data-question="What sizes do you offer?">Sizes</button>
+        <button type="button" data-question="Do you support custom jerseys?">Custom</button>
+        <button type="button" data-question="Is this an official Play11 store?">Official</button>
+      </div>
+      <form class="chatbot-form" novalidate>
+        <input id="chatbot-input" type="text" placeholder="Ask Play11..." autocomplete="off" required>
+        <button type="submit">Send</button>
+      </form>
+      <div class="chatbot-note">Set a Play11 API key to enable live AI responses.</div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/chatbot.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+﻿<svg width="800" height="1000" viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="1000" fill="#11161f"/>
+  <rect x="40" y="40" width="720" height="920" fill="none" stroke="#3b4256" stroke-width="4" stroke-dasharray="18 14"/>
+  <text x="50%" y="50%" fill="#c8ceda" font-size="44" font-family="Arial, sans-serif" text-anchor="middle">Jersey Image</text>
+  <text x="50%" y="58%" fill="#8d95a8" font-size="28" font-family="Arial, sans-serif" text-anchor="middle">Placeholder</text>
+</svg>

@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover the Play11 story, mission, and vision. Premium jerseys built for champions.">
+  <title>Play11 | About</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="about">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Play11 home">
+        <span class="brand-badge">P11</span>
+        Play11
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav id="primary-nav" class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a class="active" href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <h1>Our Story</h1>
+        <p>Play11 was built for athletes who refuse average. We blend performance science with a premium sports aesthetic.</p>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container split">
+        <div>
+          <h2>Brand Story</h2>
+          <p class="lead">Born in training camps and refined in pro arenas, Play11 is a jersey brand that champions momentum, confidence, and unity.</p>
+          <p class="muted">Our team studies how athletes move, sweat, and compete under pressure. Each jersey is crafted with data-driven materials that move with the body while preserving a clean, premium silhouette.</p>
+        </div>
+        <div class="highlight-box">
+          <h3>Mission</h3>
+          <p class="muted">Empower athletes and teams with jerseys that feel like a competitive edge.</p>
+          <h3>Vision</h3>
+          <p class="muted">Set the global standard for performance jerseys that are bold, customizable, and built to last.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt reveal">
+      <div class="container">
+        <h2>Play11 Timeline</h2>
+        <p class="lead">From prototype to podium, our growth is powered by relentless pursuit of performance.</p>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span>2018</span>
+            <h3>Prototype Lab</h3>
+            <p class="muted">First-generation jerseys tested with semi-pro clubs and collegiate teams.</p>
+          </div>
+          <div class="timeline-item">
+            <span>2020</span>
+            <h3>Performance Breakthrough</h3>
+            <p class="muted">Introduced multi-zone cooling fabrics and custom fit mapping.</p>
+          </div>
+          <div class="timeline-item">
+            <span>2022</span>
+            <h3>Elite Partnerships</h3>
+            <p class="muted">Play11 debuted with national squads and high-profile tournaments.</p>
+          </div>
+          <div class="timeline-item">
+            <span>2025</span>
+            <h3>Future-Ready Designs</h3>
+            <p class="muted">Expanded customization platform for names, numbers, and team identity.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2026 Play11. Built for teams that lead.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="chatbot">
+    <button class="chatbot-toggle" aria-expanded="false" aria-label="Open Play11 AI chat">AI</button>
+    <div class="chatbot-panel" role="dialog" aria-label="Play11 AI Chat">
+      <div class="chatbot-header">
+        <div>
+          <h3>Play11 AI</h3>
+          <p class="muted">Front-end assistant</p>
+        </div>
+        <button class="chatbot-close" aria-label="Close chat">×</button>
+      </div>
+      <div class="chatbot-messages" id="chatbot-messages" aria-live="polite"></div>
+      <div class="chatbot-quick">
+        <button type="button" data-question="What sizes do you offer?">Sizes</button>
+        <button type="button" data-question="Do you support custom jerseys?">Custom</button>
+        <button type="button" data-question="Is this an official Play11 store?">Official</button>
+      </div>
+      <form class="chatbot-form" novalidate>
+        <input id="chatbot-input" type="text" placeholder="Ask Play11..." autocomplete="off" required>
+        <button type="submit">Send</button>
+      </form>
+      <div class="chatbot-note">Set a Play11 API key to enable live AI responses.</div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/chatbot.js"></script>
+</body>
+</html>
